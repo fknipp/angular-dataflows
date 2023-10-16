@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
+import { FunctionComponent } from './function/function.component';
 
 export const routes: Routes = [
   {
@@ -12,5 +13,10 @@ export const routes: Routes = [
     path: 'events',
     component: EventsComponent,
     title: 'Events'
+  },
+  {
+    path: 'function',
+    component: FunctionComponent,
+    title: 'Function'
   }
 ];

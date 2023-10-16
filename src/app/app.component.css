@@ -7,10 +7,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.spacer {
-  flex: 1;
-}
-
 .toolbar {
   position: absolute;
   top: 0;
