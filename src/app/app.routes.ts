@@ -3,6 +3,7 @@ import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
 import { FunctionComponent } from './function/function.component';
 import { SignalComponent } from './signal/signal.component';
+import { ObservableComponent } from './observable/observable.component';
 
 export const routes: Routes = [
   {
@@ -24,5 +25,10 @@ export const routes: Routes = [
     path: 'signal',
     component: SignalComponent,
     title: 'Signal'
+  },
+  {
+    path: 'observable',
+    component: ObservableComponent,
+    title: 'Observable'
   }
 ];
